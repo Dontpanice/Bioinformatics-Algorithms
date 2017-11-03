@@ -36,7 +36,9 @@ def LocalAlignment(v, w, matrix, penalty):
                 max_i = i
                 max_j = j 
                 break
-
+        else:
+            continue
+        break
     #Backtracking and output
     i = max_i
     j = max_j
